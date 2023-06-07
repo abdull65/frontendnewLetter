@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 700px) {
   body {
     font-size: 1.4rem;
   }
@@ -72,5 +72,15 @@
     font-weight: lighter;
     position: absolute;
     left: 55%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .formContent {
+    min-width: 90vw;
+  }
+
+  .formBox {
+    padding: .5rem 3rem 2rem 2rem;
   }
 }
