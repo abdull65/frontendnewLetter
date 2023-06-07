@@ -32,5 +32,6 @@ const formEl = document
     messageBtnEl.addEventListener("click", () => {
       successMsgContainerEl.style.visibility = "hidden";
       formContentEl.style.visibility = "visible";
+      bodyEl.style.overflow = "auto";
     });
   });
