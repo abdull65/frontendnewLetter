@@ -82,6 +82,10 @@
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
 
+  body {
+    overflow-y: hidden;
+  }
+
   .formContent {
     min-width: 90vw;
     flex-direction: column-reverse;
@@ -118,5 +122,11 @@
 
   .formImageBox img {
     content: url("/assets/images/illustration-sign-up-mobile.svg");
+  }
+
+  .attribution {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 1rem 0;
   }
 }
