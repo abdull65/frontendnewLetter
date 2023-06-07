@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 500px) and (max-width: 1201px) {
   body {
     font-size: 1.4rem;
   }
@@ -42,6 +42,10 @@
     font-size: 1.2rem;
   }
 
+  .formImageBox {
+    width: 100%;
+  }
+
   .formImageBox img {
     content: url("./assets/images/illustration-sign-up-mobile.svg");
     object-fit: cover;
@@ -73,14 +77,44 @@
     position: absolute;
     left: 55%;
   }
+
 }
 
-@media only screen and (max-width: 500px) and (min-width: 300px) {
+@media only screen and (max-width: 500px) and (min-width: 320px) {
   .formContent {
     min-width: 90vw;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .formHeader {
+    margin-top: .5rem;
+  }
+
+  .formHeader h1 {
+    font-size: 2.6rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
   }
 
   .formBox {
-    padding: .5rem 3rem 2rem 2rem;
+    padding: .5rem 2rem 1rem 1rem;
+  }
+
+  .formImageBox {
+    width: 100%;
+  }
+
+  .formTextBox {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .formList {
+    align-items: flex-start;
+  }
+
+  .formImageBox img {
+    content: url("/assets/images/illustration-sign-up-mobile.svg");
   }
 }
