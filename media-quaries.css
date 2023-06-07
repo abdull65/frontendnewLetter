@@ -1,0 +1,76 @@
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  .formContent {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    min-width: 65vw;
+    margin: 1rem auto;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .formBox {
+    padding: 1rem 4rem 3rem 3rem;
+  }
+
+
+  .formHeader {
+    margin-top: 1rem;
+  }
+
+  .formHeader h1 {
+    font-size: 2.8rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+  }
+
+  .formTextBox {
+    line-height: 2;
+  }
+
+  .formList {
+    display: flex;
+    align-items: center;
+    line-height: 1.3;
+  }
+
+  #submitBtn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+
+  .formImageBox img {
+    content: url("./assets/images/illustration-sign-up-mobile.svg");
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* success message style */
+  #successMsgContainer {
+    height: 100%;
+    top: 48%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .successMsgContent {
+    width: 100%;
+    height: 100%;
+    /* margin: 4rem; */
+    justify-content: space-between;
+    border-radius: 0;
+  }
+
+  .errorText {
+    display: none;
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    left: 55%;
+  }
+}
