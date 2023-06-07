@@ -54,14 +54,13 @@
     top: 48%;
     left: 0;
     right: 0;
-    bottom: 0;
   }
 
   .successMsgContent {
     width: 100%;
     height: 100%;
     /* margin: 4rem; */
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 0;
   }
 

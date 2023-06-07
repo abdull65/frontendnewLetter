@@ -3,6 +3,7 @@ const formEl = document
   .addEventListener("submit", (e) => {
     e.preventDefault();
     console.log("submit btn clicked");
+    const bodyEl = document.querySelector("body");
     const formContentEl = document.querySelector(".formContent");
     const emailLabelEl = document.querySelector("emailLabel");
     const emailEl = document.querySelector("#email");
@@ -25,6 +26,7 @@ const formEl = document
       successMsgContainerEl.style.visibility = "visible";
       formContentEl.style.visibility = "hidden";
       userEmailEl.innerHTML = emailEl.value;
+      bodyEl.style.overflow = "hidden";
       emailEl.value = "";
     }
     messageBtnEl.addEventListener("click", () => {
