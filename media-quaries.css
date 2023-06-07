@@ -81,9 +81,11 @@
 }
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
+
   .formContent {
     min-width: 90vw;
     flex-direction: column-reverse;
+    margin: 0 auto;
     padding: 0;
   }
 
